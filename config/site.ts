@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Home | Shopa",
+  name: "Shopa",
   description: "Shopa E-commerce ",
   footer: [
     { name: "Home", href: "/" },
