@@ -83,7 +83,8 @@ export function ProductInfo({ product }: Props) {
           <Button
             onClick={addToCart}
             type="button"
-            className="w-full bg-violet-600 py-6 text-base font-medium text-white hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-500"
+            variant="default"
+            className="w-full bg-orange-500 py-6 text-base font-medium text-white hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500"
           >
             Add to cart
           </Button>

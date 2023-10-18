@@ -73,9 +73,14 @@ export function ProductFilters() {
                 {section.options.map((option, optionIndex) => (
                   <div
                     key={option.value}
-                    className="flex items-center space-x-2"
+                    className={`flex items-center space-x-2 rounded-full p-4 ${
+                      option.value === searchParams.get(section.id)
+                        ? "bg-orange-500 text-white"
+                        : "border border-slate-200"
+                    } `}
                   >
                     <Checkbox
+                      className="opacity-0"
                       id={`filter-${section.id}-${optionIndex}`}
                       checked={searchValues.some(
                         ([key, value]) =>
@@ -95,7 +100,7 @@ export function ProductFilters() {
                     />
                     <label
                       htmlFor={`filter-${section.id}-${optionIndex}`}
-                      className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                      className="flex-1 cursor-pointer text-sm font-medium leading-none  peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                     >
                       {option.label}
                     </label>
