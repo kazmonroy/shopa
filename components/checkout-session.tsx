@@ -29,17 +29,17 @@ export function CheckoutSession({ customerDetails }: Props) {
 
   return (
     <>
-      <CheckCheck className="mx-auto h-10 w-10 text-lime-500 dark:text-lime-400" />
-      <h1 className="mt-4 text-3xl font-bold tracking-tight text-lime-500 dark:text-lime-400 sm:text-5xl">
+      <CheckCheck className="mx-auto h-10 w-10 text-emerald-500 dark:text-emerald-400" />
+      <h1 className="mt-4 text-2xl font-bold tracking-tight text-emerald-500 dark:text-emerald-400 sm:text-4xl">
         Order Successful!
       </h1>
-      <h3 className="mt-8 text-2xl leading-7">
+      <h3 className="mt-8 text-2xl leading-7 sm:text-4xl">
         Thank you,{" "}
         <span className="font-extrabold">{customerDetails.name}</span>!
       </h3>
-      <p className="mt-8">
+      <p className="mt-8  sm:text-3xl">
         Check your purchase email{" "}
-        <span className="mx-1 font-extrabold text-indigo-500">
+        <span className="mx-1 font-extrabold text-orange-400">
           {customerDetails.email}
         </span>{" "}
         for your invoice.
