@@ -76,7 +76,7 @@ export function ProductFilters() {
                     className={`flex items-center space-x-2 rounded-full p-4 ${
                       option.value === searchParams.get(section.id)
                         ? "bg-orange-500 text-white"
-                        : "border border-slate-200"
+                        : "border border-slate-200 dark:border-slate-800"
                     } `}
                   >
                     <Checkbox
