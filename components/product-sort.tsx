@@ -31,7 +31,7 @@ export function ProductSort() {
   return (
     <div className="flex items-center ">
       <Select onValueChange={(value) => router.replace(value)}>
-        <SelectTrigger className="dark:border-slate-800 sm:w-[180px]">
+        <SelectTrigger className="sm:w-[180px]">
           <SelectValue placeholder="Sort By" />
         </SelectTrigger>
         <SelectContent>

@@ -15,34 +15,34 @@ const filters = [
     id: "category",
     name: "Category",
     options: [
-      { value: "bags", label: "Bags" },
-      { value: "belts", label: "Belts" },
-      { value: "gloves", label: "Gloves" },
-      { value: "scarves", label: "Scarves" },
-      { value: "wallets", label: "Wallets" },
+      { value: "radio", label: "Radio" },
+      { value: "camera", label: "Camera" },
+      { value: "gaming", label: "Gaming" },
+      { value: "recorder", label: "Recorder" },
+      { value: "speaker", label: "Speaker" },
     ],
   },
   {
     id: "size",
     name: "Size",
     options: [
-      { value: "xs", label: "X-Small" },
-      { value: "s", label: "Small" },
-      { value: "m", label: "Medium" },
-      { value: "l", label: "Large" },
-      { value: "xl", label: "X-Large" },
+      // { value: "xs", label: "X-Small" },
+      // { value: "s", label: "Small" },
+      // { value: "m", label: "Medium" },
+      // { value: "l", label: "Large" },
+      // { value: "xl", label: "X-Large" },
       { value: "one-size", label: "One Size" },
+      { value: "mini", label: "Mini" },
+      { value: "s", label: "Small" },
     ],
   },
   {
     id: "color",
     name: "Color",
     options: [
-      { value: "black", label: "Black" },
-      { value: "blue", label: "Blue" },
-      { value: "brown", label: "Brown" },
-      { value: "green", label: "Green" },
-      { value: "yellow", label: "Yellow" },
+      { value: "white", label: "White" },
+      { value: "whitesmoke", label: "Whitesmoke" },
+      { value: "transparent", label: "Transparent" },
     ],
   },
 ]
@@ -76,7 +76,7 @@ export function ProductFilters() {
                     className={`flex items-center space-x-2 rounded-full p-4 ${
                       option.value === searchParams.get(section.id)
                         ? "bg-orange-500 text-white"
-                        : "border border-slate-200 dark:border-slate-800"
+                        : "border border-slate-200 hover:bg-slate-50 dark:border-zinc-700 dark:hover:bg-zinc-700/20"
                     } `}
                   >
                     <Checkbox

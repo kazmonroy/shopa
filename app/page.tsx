@@ -21,6 +21,8 @@ interface Props {
 }
 
 export default async function Page({ searchParams }: Props) {
+  // await seedSanityData()
+
   const { date = "desc", price, color, category, size, search } = searchParams
   const priceOrder = price ? `| order(price ${price})` : ""
 
@@ -42,7 +44,7 @@ export default async function Page({ searchParams }: Props) {
     <main>
       <div>
         <section className="mx-auto max-w-6xl px-6">
-          <div className="flex items-center justify-between border-b border-gray-200 py-4 dark:border-gray-800">
+          <div className="flex items-center justify-between border-b border-gray-200 py-4 dark:border-zinc-700">
             <h1 className="text-xl font-bold tracking-tight sm:text-2xl">
               {products.length} result{products.length === 1 ? "" : "s"}
             </h1>

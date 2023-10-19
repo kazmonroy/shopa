@@ -56,7 +56,7 @@ export function ProductGallery({ product }: Props) {
           alt={`Main ${product.name} image`}
           width={600}
           height={750}
-          className="h-full w-full border-2 border-gray-200 object-cover object-center shadow-sm dark:border-gray-800 sm:rounded-lg"
+          className="h-full w-full border border-slate-200 bg-gray-50 object-cover object-center shadow-sm dark:border-zinc-700 sm:rounded-lg"
           placeholder="blur"
           blurDataURL={`data:image/svg+xml;base64,${toBase64(
             shimmer(600, 750)

@@ -33,7 +33,7 @@ export function CartItems() {
   return (
     <ul
       role="list"
-      className="divide-y divide-gray-200 border-y border-gray-200 dark:divide-gray-500 dark:border-gray-500"
+      className="divide-y divide-slate-200 border-y border-slate-200 dark:divide-zinc-700 dark:border-zinc-700"
     >
       {cartItems.map((product, productIdx) => (
         <li key={product._id} className="flex py-6 sm:py-10">
@@ -43,7 +43,7 @@ export function CartItems() {
               alt={product.name}
               width={200}
               height={200}
-              className="h-24 w-24 rounded-md border-2 border-gray-200 object-cover object-center dark:border-gray-800 sm:h-48 sm:w-48"
+              className="h-24 w-24 rounded-md border border-slate-200 bg-gray-50  object-cover object-center dark:border-zinc-700 sm:h-48 sm:w-48"
               placeholder="blur"
               blurDataURL={`data:image/svg+xml;base64,${toBase64(
                 shimmer(200, 200)
