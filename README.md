@@ -1,6 +1,6 @@
 # Spire
 
-Spire is an online store. It is built with [Next.js](https://nextjs.org/) and deployed in [Vercel](https://vercel.com/). It integrates [Sanity](https://www.sanity.io/) headless CMS to manage the store's content and [Stripe](https://stripe.com/) as the payment solution.
+Spire is an online store. It is built with [Next.js](https://nextjs.org/), styled with [TailwindCSS](https://tailwindcss.com/) and deployed in [Vercel](https://vercel.com/). It integrates [Sanity](https://www.sanity.io/) headless CMS to manage the store's content and [Stripe](https://stripe.com/) as the payment solution.
 
 ## Installation
 
