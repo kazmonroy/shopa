@@ -28,8 +28,6 @@
 
 Spire is a Star Wars inspired gear store. It is built with [Next.js](https://nextjs.org/), styled with [TailwindCSS](https://tailwindcss.com/) and deployed in [Vercel](https://vercel.com/). It integrates [Sanity](https://www.sanity.io/) headless CMS to manage the store's content and [Stripe](https://stripe.com/) as the payment solution.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 - [![React](https://img.shields.io/badge/React-0F172A?&logo=react)](https://react.dev/)
@@ -50,18 +48,26 @@ Spire is a Star Wars inspired gear store. It is built with [Next.js](https://nex
 
 To run a local repo follow these simple steps:
 
+### Prerequisites
+
+- [npm](https://pip.pypa.io/en/stable/) package manager
+
+  ```sh
+  npm install npm@latest -g
+  ```
+
 ### Installation
 
-1. Use [npm](https://pip.pypa.io/en/stable/) package manager
-
-   ```sh
-   npm install npm@latest -g
-   ```
-
-2. Clone the repo
+1. Clone the repo
 
    ```sh
    git clone https://github.com/kazmonroy/spire.git
+   ```
+
+2. Change to cloned directory
+
+   ```sh
+   cd spire
    ```
 
 3. Install NPM packages
@@ -71,6 +77,7 @@ To run a local repo follow these simple steps:
    ```
 
 4. Start project locally
+
    ```sh
    npm run dev
    ```
@@ -92,13 +99,5 @@ If you have a suggestion that would make this project better, please fork the re
 ## License
 
 Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Contact
-
-Your Name - [@kazmonroy](https://twitter.com/kazmonroy)
-
-Project Link: [https://github.com/kazmonroy/spire](https://github.com/kazmonroy/spire)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
