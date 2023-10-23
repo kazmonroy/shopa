@@ -30,17 +30,18 @@ Spire is a Star Wars inspired gear store. It is built with [Next.js](https://nex
 
 ### Built With
 
-- [![React](https://img.shields.io/badge/React-0F172A?&logo=react)](https://react.dev/)
+- [![React](https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=0DA6E9)](https://react.dev/)
 
-- [![Next.js](https://img.shields.io/badge/Next.js-0F172A?&logo=nextdotjs)](https://nextjs.org/)
+- [![Next.js](https://img.shields.io/badge/Next.js-0A0A0A?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 
-- [![Sanity](https://img.shields.io/badge/Sanity-0F172A?&logo=sanity)](https://www.sanity.io/)
+- [![Sanity](https://img.shields.io/badge/Sanity-F36458?style=for-the-badge&logo=stripe&logoColor=white)](https://www.sanity.io/)
 
-- [![TailwindCSS](https://img.shields.io/badge/Tailwindcss-0F172A?&logo=tailwindcss)](https://tailwindcss.com/)
+- [![TailwindCSS](https://img.shields.io/badge/Tailwind-0D2339?style=for-the-badge&logo=tailwindcss&logoColor=0DA6E9)](https://tailwindcss.com/)
+- [![Shadcn UI](https://img.shields.io/badge/Shadcnui-0A0A0A?style=for-the-badge&logo=chakra-ui&logoColor=white)](https://ui.shadcn.com/)
 
-- [![Vercel](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)](https://vercel.com/)
+- [![Vercel](https://img.shields.io/badge/Vercel-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-- [![Stripe](https://img.shields.io/badge/Stripe-0F172A?&logo=stripe)](https://stripe.com/)
+- [![Stripe](https://img.shields.io/badge/Stripe-6860FF?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
